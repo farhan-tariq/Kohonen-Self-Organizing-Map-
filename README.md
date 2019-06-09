@@ -7,7 +7,7 @@ Final year project to develop a visualization and learning tool based on Self-Or
 * JFoenix 
 * AnimateFx 
 * FXGraphics 2D
-* Sclar   
+* Scalr   
 * JLatex
 
 
