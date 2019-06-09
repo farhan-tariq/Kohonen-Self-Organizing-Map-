@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="372.0" prefWidth="751.0" styleClass="secondaryBackground"
+            stylesheets="@../../../CSS/main.css" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Learning.MCQ.Controller.MCQController">
+
+    <Text fx:id="questionNoText" fill="WHITE" layoutX="35.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0"
+          styleClass="title-label">
+
+    </Text>
+    <Text fx:id="questionText" fill="WHITE" layoutX="89.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0"
+          styleClass="title-label" text="Question">
+
+    </Text>
+    <JFXRadioButton fx:id="radioButton1" layoutX="54.0" layoutY="114.0" onAction="#groupAction"
+                    styleClass="normalLabel"/>
+    <JFXRadioButton fx:id="radioButton2" layoutX="54.0" layoutY="233.0" onAction="#groupAction"
+                    styleClass="normalLabel"/>
+    <JFXRadioButton fx:id="radioButton3" layoutX="54.0" layoutY="193.0" onAction="#groupAction"
+                    styleClass="normalLabel"/>
+    <JFXRadioButton fx:id="radioButton4" layoutX="54.0" layoutY="153.0" onAction="#groupAction"
+                    styleClass="normalLabel"/>
+
+    <JFXButton fx:id="nextButton" layoutX="61.0" layoutY="301.0" prefHeight="34.0" prefWidth="157.0"
+               styleClass="menu-button" text="Next">
+
+    </JFXButton>
+    <JFXButton fx:id="finishButton" layoutX="260.0" layoutY="301.0" prefHeight="34.0" prefWidth="157.0"
+               styleClass="menu-button" text="Finish">
+
+    </JFXButton>
+</AnchorPane>

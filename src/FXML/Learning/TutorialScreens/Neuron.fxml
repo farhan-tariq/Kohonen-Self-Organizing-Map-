@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane styleClass="paneBackground" stylesheets="@../../../CSS/main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Learning.TutorialControllers.NeuronController">
+    <center>
+        <AnchorPane prefHeight="553.0" prefWidth="765.0">
+            <Label alignment="CENTER" layoutX="60.0" layoutY="27.0" mouseTransparent="true" style="&#10;" styleClass="title-label" text="Neuron Model" textAlignment="CENTER">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Label>
+            <JFXButton fx:id="nextButton" layoutX="582.0" layoutY="477.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="72.0" styleClass="smallButton" text="Next" />
+            <JFXButton fx:id="backButton" layoutX="477.0" layoutY="477.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="72.0" styleClass="smallButton" text="Back" />
+            <JFXTextArea layoutX="60.0" layoutY="85.0" mouseTransparent="true" prefHeight="451.0" prefWidth="334.0" text="An artificial neuron is a mathematical function conceived as a model of biological neurons, a neural network. Artificial neurons are elementary units in an artificial neural network.&#10;&#10;The artificial neuron receives one or more inputs (representing excitatory postsynaptic potentials and inhibitory postsynaptic potentials at neural dendrites) and sums them to produce an output (or activation, representing a neuron's action potential which is transmitted along its axon). Usually each input is separately weighted, and the sum is passed through a non-linear function known as an activation function or transfer function&#10;&#10;Basic Structure&#10;&#10;For a given artificial neuron, let there be m + 1 inputs with signals x0 through xm and weights w0 through wm. Usually, the x0 input is assigned the value +1, which makes it a bias input with wk0 = bk. This leaves only m actual inputs to the neuron: from x1 to xm.&#10;&#10;The output is analogous to the axon of a biological neuron, and its value propagates to the input of the next layer, through a synapse. It may also exit the system, possibly as part of an output vector.&#10;&#10;It has no learning process as such. Its transfer function weights are calculated and threshold value are predetermined." wrapText="true">
+                <styleClass>
+                    <String fx:value="textArea" />
+                    <String fx:value="padding" />
+                </styleClass>
+            </JFXTextArea>
+            <ImageView fx:id="neuronImageView" fitHeight="223.0" fitWidth="308.0" layoutX="427.0" layoutY="85.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="formulaImageView" fitHeight="115.0" fitWidth="173.0" layoutX="427.0" layoutY="323.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+        </AnchorPane>
+    </center>
+    <top>
+        <AnchorPane prefHeight="40.0" prefWidth="889.0" BorderPane.alignment="CENTER">
+            <JFXHamburger fx:id="hamburger" layoutX="14.0" layoutY="10.0" />
+        </AnchorPane>
+    </top>
+    <left>
+        <AnchorPane fx:id="menuPane" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="553.0" prefWidth="170.0" styleClass="paneBackground" BorderPane.alignment="CENTER">
+            <VBox fx:id="drawer" layoutX="1.0" layoutY="135.0" prefHeight="326.0" prefWidth="170.0">
+                <JFXButton fx:id="homeButton" layoutX="30.0" layoutY="10.0" prefHeight="25.0" prefWidth="78.0" styleClass="menu-button" text="Home">
+                    <graphic>
+                        <FontAwesomeIconView glyphName="HOME" size="20" />
+                    </graphic>
+                </JFXButton>
+                <JFXButton fx:id="neuronButton" styleClass="menu-button" text="Neuron" />
+                <JFXButton fx:id="learningButton" layoutY="120.0" styleClass="menu-button" text="Learning" />
+                <JFXButton fx:id="hebbianButton" layoutY="40.0" styleClass="menu-button" text="Hebbian Learning" />
+                <JFXButton fx:id="normalizedHebbianButton" layoutY="80.0" styleClass="menu-button" text="Normalized Hebbian" />
+                <JFXButton fx:id="somButton" layoutY="120.0" styleClass="menu-button" text="Self-Organizing Map" />
+                <JFXButton fx:id="distanceMetricButton" layoutY="120.0" styleClass="menu-button" text="Distance Metrics" />
+                <JFXButton fx:id="visualizingSOMButton" layoutY="120.0" styleClass="menu-button" text="Visualization" />
+
+            </VBox>
+        </AnchorPane>
+    </left>
+    <right>
+        <Region prefHeight="553.0" prefWidth="50.0" BorderPane.alignment="CENTER" />
+    </right>
+    <bottom>
+        <Region prefHeight="40.0" prefWidth="889.0" BorderPane.alignment="CENTER" />
+    </bottom>
+</BorderPane>

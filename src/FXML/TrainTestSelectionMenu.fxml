@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="223.0" prefWidth="600.0" styleClass="paneBackground" stylesheets="@../CSS/main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DataSelectionControllers.DataSelectionMenuController">
+    <JFXButton fx:id="testNetworkButton" layoutX="409.0" layoutY="148.0" prefHeight="25.0" prefWidth="120.0" styleClass="smallButton" text="Test" />
+    <JFXButton fx:id="trainNetworkButton" layoutX="409.0" layoutY="109.0" prefHeight="25.0" prefWidth="120.0" styleClass="smallButton" text="Train" />
+    <AnchorPane prefHeight="43.0" prefWidth="600.0">
+        <Label layoutX="237.0" layoutY="7.0" styleClass="title-label" text="Training / Testing" />
+        <Label layoutX="473.0" layoutY="26.0" styleClass="path-label" text="Clustering-Selection" />
+      <JFXButton fx:id="homeButton" layoutX="17.0" layoutY="13.0" prefHeight="25.0" prefWidth="78.0" styleClass="titleButton" text="Home">
+         <graphic>
+            <FontAwesomeIconView glyphName="HOME" size="20" />
+         </graphic>
+      </JFXButton>
+    </AnchorPane>
+    <Label layoutX="25.0" layoutY="75.0" styleClass="normalLabel" text="Select from one of the following options" />
+   <AnchorPane layoutX="9.0" layoutY="102.0" prefHeight="84.0" prefWidth="378.0" styleClass="secondaryBackground">
+          <Label layoutX="11.0" layoutY="10.0" styleClass="normalLabel" text="1." />
+          <Label layoutX="29.0" layoutY="11.0" styleClass="normalLabel" text="Train the network on a dataset" />
+          <Label layoutX="29.0" layoutY="50.0" styleClass="normalLabel" text="Test an already trained network using similar dataset" />
+          <Label layoutX="11.0" layoutY="50.0" styleClass="normalLabel" text="2." />
+   </AnchorPane>
+</AnchorPane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" styleClass="paneBackground" stylesheets="@../../CSS/main.css"
+            xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Controllers.VisualizationControllers.VisualizationSelectionMenuController">
+
+
+    <JFXButton fx:id="hitMapVisualizationButton" layoutX="288.0" layoutY="350.0" prefHeight="25.0" prefWidth="117.0"
+               styleClass="largeButton" text="Hit-Map Visualization"/>
+    <JFXButton fx:id="trainingVisualizationButton" layoutX="84.0" layoutY="350.0" prefHeight="25.0" prefWidth="120.0"
+               styleClass="largeButton" text="Training Visualization"/>
+    <JFXButton fx:id="bmuVisualizationButton" layoutX="436.0" layoutY="350.0" prefHeight="25.0" prefWidth="120.0"
+               styleClass="largeButton" text="BMU Visualization"/>
+
+    <AnchorPane prefHeight="49.0" prefWidth="600.0">
+        <Label layoutX="248.0" layoutY="8.0" styleClass="title-label" text="Visualizations"/>
+        <JFXButton fx:id="homeButton" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="78.0"
+                   styleClass="titleButton" text="Home">
+            <graphic>
+                <FontAwesomeIconView glyphName="HOME" size="20"/>
+            </graphic>
+        </JFXButton>
+    </AnchorPane>
+    <Label layoutX="27.0" layoutY="61.0" styleClass="normalLabel"
+           text="Visualizing of the Self-Organizing Map's Organization"/>
+    <JFXTextArea layoutX="16.0" layoutY="147.0" prefHeight="192.0" prefWidth="249.0"
+                 text="The training visualization shows the network experience of learning the input patterns fed to it.&#10;&#10;Initially, the weight vectors of each neuron have random values and images generated using weight vector represent nothing but after many iterations the images generated become clearer and start representing some input value.&#10;">
+        <styleClass>
+            <String fx:value="textArea"/>
+            <String fx:value="padding"/>
+        </styleClass>
+    </JFXTextArea>
+    <JFXTextArea layoutX="277.0" layoutY="147.0" prefHeight="192.0" prefWidth="303.0"
+                 text="The Hit-Map visualization shows how many time a neuron was the best matching unit when some input value was fed. &#10;&#10;The BMU Visualizaiton shows each best matching unit.&#10;&#10;When ever a neuron is a BMU it stores the input value and later using this information stored the clusters can be seen as a neuron only wins when it is closer to some input value and the same neuron will keep winning for similar input values">
+        <styleClass>
+            <String fx:value="textArea"/>
+            <String fx:value="padding"/>
+        </styleClass>
+    </JFXTextArea>
+    <JFXTextArea layoutX="27.0" layoutY="85.0" prefHeight="16.0" prefWidth="531.0"
+                 text="There are many different ways to visualize a self-organizing map out of which the two are as follows">
+        <styleClass>
+            <String fx:value="textArea"/>
+            <String fx:value="padding"/>
+        </styleClass>
+    </JFXTextArea>
+</AnchorPane>

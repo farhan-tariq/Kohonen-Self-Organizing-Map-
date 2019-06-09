@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane styleClass="paneBackground" stylesheets="@../../../CSS/main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Learning.TutorialControllers.LearningIntroController">
+    <center>
+        <AnchorPane prefHeight="553.0" prefWidth="765.0">
+            <Label alignment="CENTER" layoutX="60.0" layoutY="46.0" style="&#10;" styleClass="title-label" text="Artificial Neural Networks" textAlignment="CENTER">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Label>
+            <Label layoutX="60.0" layoutY="97.0" prefHeight="51.0" prefWidth="399.0" styleClass="title-label" text="Learn how to solve problems with neural networks" textAlignment="CENTER">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Label>
+            <JFXButton fx:id="nextButton" layoutX="582.0" layoutY="477.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="72.0" styleClass="smallButton" text="Next" />
+            <JFXButton fx:id="backButton" layoutX="477.0" layoutY="477.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="72.0" styleClass="smallButton" text="Back" />
+            <JFXTextArea layoutX="60.0" layoutY="164.0" prefHeight="290.0" prefWidth="296.0" text="Introduction&#10;&#10;An artificial neural network is an interconnected assembly of simple processing elements, called artificial neurons, whose functionality mimics that of a biological neuron.Individual neurons can be combined into layers, and there are single and multi-layer networks, with or without feedback.The most common types of ANN's used for solving problems are called Feed-Forward Networks and Feedback Networks.                                         Feed-Forward Networks are based on Supervised learning ,whereas Feedback Networks are based on Unsupervised Learning" wrapText="true">
+                <styleClass>
+                    <String fx:value="textArea" />
+                    <String fx:value="padding" />
+                </styleClass>
+            </JFXTextArea>
+            <JFXTextArea layoutX="416.0" layoutY="164.0" prefHeight="290.0" prefWidth="296.0" text="Before the use, an ANN has to be trained.During the training, network adjusts its weights. In supervised training,input/output pairs are presented to the network and the network tries to learn desired input output mapping.                                                  &#10;&#10; Some neural architectures can learn without supervision from the training dataObject without specified input/output pairs.Self-Organizing Map is one of the unsupervised neural architecture that learns on its own.">
+                <styleClass>
+                    <String fx:value="textArea" />
+                    <String fx:value="padding" />
+                </styleClass>
+            </JFXTextArea>
+        </AnchorPane>
+    </center>
+    <top>
+        <AnchorPane prefHeight="40.0" prefWidth="889.0" BorderPane.alignment="CENTER">
+            <JFXHamburger fx:id="hamburger" layoutX="14.0" layoutY="10.0" />
+        </AnchorPane>
+    </top>
+    <left>
+        <AnchorPane fx:id="menuPane" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="553.0" prefWidth="170.0" styleClass="paneBackground" BorderPane.alignment="CENTER">
+            <VBox fx:id="drawer" layoutX="1.0" layoutY="114.0" prefHeight="326.0" prefWidth="170.0">
+                <JFXButton fx:id="homeButton" layoutX="30.0" layoutY="10.0" prefHeight="25.0" prefWidth="78.0" styleClass="menu-button" text="Home">
+                    <graphic>
+                        <FontAwesomeIconView glyphName="HOME" size="20" />
+                    </graphic>
+                </JFXButton>
+                <JFXButton fx:id="neuronButton" styleClass="menu-button" text="Neuron" />
+                <JFXButton fx:id="learningButton" layoutY="120.0" styleClass="menu-button" text="Learning" />
+                <JFXButton fx:id="hebbianButton" layoutY="40.0" styleClass="menu-button" text="Hebbian Learning" />
+                <JFXButton fx:id="normalizedHebbianButton" layoutY="80.0" styleClass="menu-button" text="Normalized Hebbian" />
+                <JFXButton fx:id="somButton" layoutY="120.0" styleClass="menu-button" text="Self-Organizing Map" />
+                <JFXButton fx:id="distanceMetricButton" layoutY="120.0" styleClass="menu-button" text="Distance Metrics" />
+                <JFXButton fx:id="visualizingSOMButton" layoutY="120.0" styleClass="menu-button" text="Visualization" />
+            </VBox>
+
+        </AnchorPane>
+    </left>
+    <right>
+        <Region prefHeight="553.0" prefWidth="50.0" BorderPane.alignment="CENTER" />
+    </right>
+    <bottom>
+        <Region prefHeight="40.0" prefWidth="889.0" BorderPane.alignment="CENTER" />
+    </bottom>
+</BorderPane>

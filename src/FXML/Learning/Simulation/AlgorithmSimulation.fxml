@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<HBox prefHeight="1034.0" prefWidth="1693.0" styleClass="paneBackground" stylesheets="@AlgorithmSimulation.css"
+      xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="Controllers.Learning.Simulation.Controllers.Controller">
+    <AnchorPane prefHeight="1034.0" prefWidth="885.0">
+
+        <JFXButton fx:id="homeButton" layoutX="44.0" layoutY="11.0" prefHeight="25.0" prefWidth="78.0"
+                   styleClass="titleButton" text="Home">
+            <graphic>
+                <FontAwesomeIconView glyphName="HOME" size="20"/>
+            </graphic>
+        </JFXButton>
+        <StackPane layoutX="16.0" layoutY="102.0" prefHeight="831.0" prefWidth="849.0" styleClass="secondaryBackground">
+            <AnchorPane fx:id="linePane" prefHeight="831.0" prefWidth="849.0"/>
+            <AnchorPane fx:id="nodePane" prefHeight="831.0" prefWidth="849.0"/>
+            <AnchorPane fx:id="nodeLabelPane" prefHeight="831.0" prefWidth="849.0"/>
+            <AnchorPane fx:id="radiusCirclePane" prefHeight="831.0" prefWidth="849.0"/>
+        </StackPane>
+        <Label layoutX="347.0" layoutY="26.0" styleClass="title-label" text="Self-Organizing-Map Network"/>
+        <JFXButton fx:id="startButton" layoutX="44.0" layoutY="979.0" styleClass="menu-button" text="Start"/>
+        <Circle fill="WHITE" layoutX="440.0" layoutY="994.0" radius="18.0" stroke="#f40000" strokeType="INSIDE"
+                strokeWidth="5.0"/>
+        <Label layoutX="476.0" layoutY="967.0" styleClass="title-label" text="Best Matching Node"/>
+        <Line endX="-16.6666259765625" endY="-41.0" fill="#ffdddd" layoutX="745.0" layoutY="1013.0" startX="-100.0"
+              stroke="#baa6a6"/>
+        <Label layoutX="722.0" layoutY="969.0" styleClass="title-label" text="Input to a Node"/>
+    </AnchorPane>
+    <AnchorPane prefHeight="1034.0" prefWidth="807.0" styleClass="paneBackground" HBox.hgrow="NEVER">
+        <AnchorPane layoutX="29.0" layoutY="51.0" prefHeight="933.0" prefWidth="750.0" styleClass="secondaryBackground">
+            <VBox fx:id="weightFormulaPane" layoutX="15.0" layoutY="19.0" prefHeight="900.0" prefWidth="720.0"
+                  styleClass="secondaryBackground"/>
+        </AnchorPane>
+        <Label layoutX="295.0" layoutY="-1.0" prefHeight="40.0" prefWidth="245.0" styleClass="title-label"
+               text="Calculating BMU &amp; Weight Updates"/>
+        <Label layoutX="140.0" layoutY="983.0" styleClass="title-label" text="Best Matching Node"/>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#293948" height="22.0" layoutX="14.0" layoutY="997.0"
+                   stroke="#ff0808" strokeType="INSIDE" width="114.0"/>
+        <Label layoutX="305.0" layoutY="983.0" styleClass="title-label" text="Input Value : x"/>
+        <Label layoutX="430.0" layoutY="983.0" styleClass="title-label" text="Weight Value : w"/>
+        <Label layoutX="578.0" layoutY="983.0" styleClass="title-label" text="Formula : Euclidean Distance"/>
+        <Line endX="-100.0" endY="-43.3333740234375" layoutX="391.0" layoutY="1030.0" startX="-100.0"/>
+        <Line endX="-100.0" endY="-43.3333740234375" layoutX="519.0" layoutY="1029.0" startX="-100.0"/>
+        <Line endX="-100.0" endY="-43.3333740234375" layoutX="667.0" layoutY="1029.0" startX="-100.0"/>
+    </AnchorPane>
+
+</HBox>

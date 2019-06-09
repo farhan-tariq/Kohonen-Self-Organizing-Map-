@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="562.0" prefWidth="855.0" styleClass="paneBackground" stylesheets="@../../../CSS/main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Learning.MCQ.Controller.ModelController">
+
+    <AnchorPane fx:id="anchorPane" layoutX="52.0" layoutY="182.0" prefHeight="347.0" prefWidth="751.0" styleClass="secondaryBackground" />
+    <Pane layoutX="52.0" layoutY="26.0" prefHeight="138.0" prefWidth="751.0" styleClass="secondaryBackground">
+        <Label layoutX="328.0" prefHeight="35.0" prefWidth="96.0" styleClass="title-label" text="Questions" />
+        <HBox layoutX="43.0" layoutY="52.0" prefHeight="35.0" prefWidth="634.0" style="-fx-spacing: 20;">
+            <JFXButton fx:id="question1" prefHeight="35.0" prefWidth="45.0" styleClass="paneBorder" text="1" textFill="WHITE" />
+            <JFXButton fx:id="question2" prefHeight="35.0" prefWidth="45.0" styleClass="paneBorder" text="2" textFill="WHITE" />
+            <JFXButton fx:id="question3" prefHeight="35.0" prefWidth="45.0" styleClass="paneBorder" text="3" textFill="WHITE" />
+            <JFXButton fx:id="question4" prefHeight="35.0" prefWidth="45.0" styleClass="paneBorder" text="4" textFill="WHITE" />
+            <JFXButton fx:id="question5" prefHeight="35.0" prefWidth="45.0" styleClass="paneBorder" text="5" textFill="WHITE" />
+            <JFXButton fx:id="question6" prefHeight="35.0" prefWidth="45.0" styleClass="paneBorder" text="6" textFill="WHITE" />
+            <JFXButton fx:id="question7" prefHeight="35.0" prefWidth="45.0" styleClass="paneBorder" text="7" textFill="WHITE" />
+            <JFXButton fx:id="question8" prefHeight="35.0" prefWidth="45.0" styleClass="paneBorder" text="8" textFill="WHITE" />
+            <JFXButton fx:id="question9" prefHeight="35.0" prefWidth="45.0" styleClass="paneBorder" text="9" textFill="WHITE" />
+            <JFXButton fx:id="question10" prefHeight="35.0" prefWidth="45.0" styleClass="paneBorder" text="10" textFill="WHITE" />
+        </HBox>
+    </Pane>
+
+
+</AnchorPane>

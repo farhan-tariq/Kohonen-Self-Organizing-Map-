@@ -1,0 +1,54 @@
+.paneBackground {
+    -fx-background-color: #373839;
+}
+
+.title-label {
+    -fx-font-size: 14;
+    -fx-font-family: Arial;
+    -fx-padding: 15 5 20 5;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.secondaryBackground {
+    -fx-background-color: #454545;
+    -fx-background-radius: 5;
+}
+
+
+.titleButton {
+    -fx-pref-height: 30;
+    -fx-pref-width: 75.0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-smoothing-type: auto;
+    -fx-padding: 5;
+    -fx-border-insets: 5;
+    -fx-background-color: #454545;
+}
+
+.titleButton:hover {
+    -fx-background-color: #2D363D;
+}
+
+
+.titleButton:pressed {
+    -fx-background-color: #2D363D;
+    -fx-text-fill: white;
+}
+
+.menu-button {
+    -fx-pref-height: 40;
+    -fx-pref-width: 170.0;
+    -fx-background-color: #2F7FD6;
+    -fx-text-fill: white;
+}
+
+.menu-button:hover {
+    -fx-background-color: #015E8D;
+}
+
+.menu-button:pressed {
+    -fx-background-color: #015E8D;
+    -fx-text-fill: white;
+}

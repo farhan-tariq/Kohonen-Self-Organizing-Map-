@@ -1,0 +1,257 @@
+.paneBackground {
+    -fx-background-color: #373839;
+}
+
+.secondaryBackground {
+    -fx-background-color: #454545;
+    -fx-background-radius: 5;
+}
+
+
+.normalLabel {
+    -fx-font-size: 14;
+    -fx-font-family: Arial;
+    -fx-text-fill: white;
+}
+
+
+.title-label {
+    -fx-font-size: 14;
+    -fx-font-family: Arial;
+    -fx-padding: 15 5 20 5;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.path-label {
+    -fx-font-size: 12;
+    -fx-font-family: "Cambria Math";
+    -fx-text-fill: white;
+}
+
+
+.bmuBack-button {
+    -fx-pref-height: 30;
+    -fx-pref-width: 100.0;
+    -fx-background-color: #2F7FD6;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-smoothing-type: auto;
+}
+
+
+.bmuTitle-label {
+    -fx-padding: 15 15 15 15;
+}
+
+.visualizationGrid {
+    -fx-padding: 20 20 20 20;
+}
+
+.bmuLabel {
+    -fx-font-size: 14;
+    -fx-font-family: Arial;
+    -fx-padding: 15 15 15 15;
+}
+
+.bmuButton {
+    -fx-pref-height: 30;
+    -fx-pref-width: 100.0;
+    -fx-background-color: #2F7FD6;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-smoothing-type: auto;
+}
+
+
+.largeButton {
+    -fx-pref-height: 30;
+    -fx-pref-width: 135.0;
+    -fx-background-color: #2F7FD6;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-smoothing-type: auto;
+    -fx-padding: 5;
+    -fx-border-insets: 5;
+}
+
+.largeButton:hover {
+    -fx-background-color: #2D363D;
+}
+
+.largeButton:pressed {
+    -fx-background-color: #2D363D;
+    -fx-text-fill: white;
+}
+
+
+.mediumButton {
+    -fx-pref-height: 30;
+    -fx-pref-width: 100.0;
+    -fx-background-color: #2F7FD6;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-smoothing-type: auto;
+    -fx-padding: 5;
+    -fx-border-insets: 5;
+}
+
+.mediumButton:hover {
+    -fx-background-color: #2D363D;
+}
+
+.mediumButton:pressed {
+    -fx-background-color: #2D363D;
+    -fx-text-fill: white;
+}
+
+
+.smallButton {
+    -fx-pref-height: 30;
+    -fx-pref-width: 75.0;
+    -fx-background-color: #2F7FD6;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-smoothing-type: auto;
+    -fx-padding: 5;
+    -fx-border-insets: 5;
+}
+
+.smallButton:hover {
+    -fx-background-color: #2D363D;
+}
+
+.smallButton:pressed {
+    -fx-background-color: #2D363D;
+    -fx-text-fill: white;
+}
+
+
+.tinyButton {
+    -fx-pref-height: 30;
+    -fx-pref-width: 45.0;
+    -fx-background-color: #2F7FD6;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-smoothing-type: auto;
+    -fx-padding: 5;
+    -fx-border-insets: 5;
+}
+
+.tinyButton:hover {
+    -fx-background-color: #2D363D;
+}
+
+.tinyButton:pressed {
+    -fx-background-color: #2D363D;
+    -fx-text-fill: white;
+}
+
+
+.titleButton {
+    -fx-pref-height: 30;
+    -fx-pref-width: 75.0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-smoothing-type: auto;
+    -fx-padding: 5;
+    -fx-border-insets: 5;
+    -fx-background-color: #454545;
+
+
+}
+
+.titleButton:hover {
+    -fx-background-color: #2D363D;
+}
+
+
+.titleButton:pressed {
+    -fx-background-color: #2D363D;
+    -fx-text-fill: white;
+}
+
+
+.title-pane {
+    -fx-background-color: #3F51B5;
+}
+
+
+.textField {
+    -fx-pref-width: 100;
+    -fx-pref-height: 25;
+    -fx-font-weight: bolder;
+}
+
+.textArea {
+    -fx-background-color: #454545;
+    -fx-border-color: grey;
+    -fx-border-radius: 5;
+    -fx-text-fill: WHITE;
+    -fx-text-alignment: center;
+    -fx-font-size: 11;
+}
+
+.padding{
+  -fx-padding: 5,5,5,5;
+}
+
+.normalText {
+    -fx-font-size: 11;
+    -fx-text-fill: WHITE;
+}
+
+.smallHeading {
+    -fx-text-fill: WHITE;
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+}
+
+.largeHeading {
+    -fx-font-size: 16;
+    -fx-font-family: Arial;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.mediumHeading {
+    -fx-font-size: 14;
+    -fx-font-family: Arial;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.paneBorder {
+    -fx-border-color: grey;
+    -fx-border-radius: 10;
+}
+
+.hitmap{
+   -fx-background-color: cell-border-color, cell-color;
+    -fx-background-insets: 0, 1 1 0 0 ;
+    -fx-padding: 1 ;
+}
+
+.menu-button {
+    -fx-pref-height: 40;
+    -fx-pref-width: 170.0;
+    -fx-background-color: #2D363D;
+    -fx-text-fill: white;
+}
+
+.menu-button:hover {
+    -fx-background-color: #015E8D;
+}
+
+.menu-button:pressed {
+    -fx-background-color: #015E8D;
+    -fx-text-fill: white;
+}
+
+
+.background{
+    -fx-background-color: #2D363D;
+}
+
+
+
