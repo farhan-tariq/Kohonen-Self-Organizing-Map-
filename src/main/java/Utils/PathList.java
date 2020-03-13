@@ -154,11 +154,11 @@ public class PathList {
     }
 
     public static String getNeuronFormatImageURL() {
-        return "src/Images/NeuronModel.JPG";
+        return "src/main/resources/Images/NeuronModel.JPG";
     }
 
     public static String getNeuronModel_ImageURL() {
-        return "src/Images/Neuron Formula.JPG";
+        return "src/main/resources/Images/Neuron Formula.JPG";
     }
 
     public static String getMultipleChoiceQuestionsFxml() {
