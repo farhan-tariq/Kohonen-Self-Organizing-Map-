@@ -14,10 +14,10 @@ Final year project to develop a visualization and learning tool based on Self-Or
 # Visualization Screenshots
 
 ##  Hit-Map Visualization
-![HitMap](src/main/resources/Screenshots/BMU_Training_Visualization.gif)
+![HitMap](src/main/resources/Screenshots/HitMap_Visualization.gif)
   
 ##  Training Visualization
-![Training Visualization](src/main/resources/Screenshots/HitMap_Visualization.gif)
+![Training Visualization](src/main/resources/Screenshots/BMU_Training_Visualization.gif)
 
 <br></br>
 # Learning Tool Screenshots
