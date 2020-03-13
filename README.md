@@ -37,7 +37,7 @@ Final year project to develop a visualization and learning tool based on Self-Or
 
 <br></br>
 # LICENSE
-[![GNU](src/main/resources/Screenshots/GNU_LICENSE%20(1).jpg)](LICENSE)
+[![GNU](src/main/resources/Screenshots/GNU.gif)](LICENSE)
 
 
 
