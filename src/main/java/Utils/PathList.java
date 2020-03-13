@@ -41,12 +41,12 @@ public class PathList {
     private static String MCQ_MAIN_FXML = LEARNING_PATH.concat("MCQ/Main.fxml");
     private static String MCQ_RESULT_FXML = LEARNING_PATH.concat("MCQ/Result.fxml");
 
-    private static final String TRAINING_DATASET1_URL = "src/Dataset/Training Dataset/Dataset-1 Numbers (10 Samples Each)";
-    private static final String TRAINING_DATASET2_URL = "src/Dataset/Training Dataset/Dataset-1 Numbers (20 Samples Each)";
-    private static final String TRAINING_DATASET3_URL = "src/Dataset/Training Dataset/Dataset-2 Alphabets";
+    private static final String TRAINING_DATASET1_URL = "src/main/resources/Dataset/Training Dataset/Dataset-1 Numbers (10 Samples Each)";
+    private static final String TRAINING_DATASET2_URL = "src/main/resources/Dataset/Training Dataset/Dataset-1 Numbers (20 Samples Each)";
+    private static final String TRAINING_DATASET3_URL = "src/main/resources/Dataset/Training Dataset/Dataset-2 Alphabets";
 
-    private static final String TESTING_DATASET1_URL = "src/Dataset/Testing Dataset/Dataset-1  Numbers";
-    private static final String TESTING_DATASET2_URL = "src/Dataset/Testing Dataset/Dataset-2  Alphabets";
+    private static final String TESTING_DATASET1_URL = "src/main/resources/Dataset/Testing Dataset/Dataset-1  Numbers";
+    private static final String TESTING_DATASET2_URL = "src/main/resources/Dataset/Testing Dataset/Dataset-2  Alphabets";
 
     public static String getVisualizationSelectionMenuFxml() {
         return VISUALIZATION_SELECTION_MENU_FXML;
