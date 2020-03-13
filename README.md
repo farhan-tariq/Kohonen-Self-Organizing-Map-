@@ -17,7 +17,7 @@ Final year project to develop a visualization and learning tool based on Self-Or
 ![HitMap](https://github.com/farhan-tariq/Kohonen-Self-Organizing-Map-/blob/master/src/Screenshots/Hit-Map.JPG)
   
 ##  Training Visualization
-![Training Visualization](https://github.com/farhan-tariq/Kohonen-Self-Organizing-Map-/blob/master/src/Screenshots/Network_Training_Simulation.jpg)
+![Training Visualization](https://github.com/farhan-tariq/Kohonen-Self-Organizing-Map-/blob/master/src/Screenshots/Training_Visualization.gif)
 
 <br></br>
 # Learning Tool Screenshots
