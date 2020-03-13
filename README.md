@@ -14,19 +14,19 @@ Final year project to develop a visualization and learning tool based on Self-Or
 # Visualization Screenshots
 
 ##  Hit-Map Visualization
-![HitMap](https://github.com/farhan-tariq/Kohonen-Self-Organizing-Map-/blob/master/src/Screenshots/Hit-Map.JPG)
+![HitMap](src/main/resources/Screenshots/Hit-Map.jpg)
   
 ##  Training Visualization
-![Training Visualization](https://github.com/farhan-tariq/Kohonen-Self-Organizing-Map-/blob/master/src/Screenshots/Training_Visualization.gif)
+![Training Visualization](src/main/resources/Screenshots/Training_Visualization.gif)
 
 <br></br>
 # Learning Tool Screenshots
 
 ##  Algorithm Simulation
-![Simulation of the Algorithm](https://github.com/farhan-tariq/Kohonen-Self-Organizing-Map-/blob/master/src/Screenshots/Algorithm_Simulation.jpg)
+![Simulation of the Algorithm](src/main/resources/Screenshots/Algorithm_Simulation.jpg)
 
 ##  Multiple Choice Questionnaire
-![MCQ](https://github.com/farhan-tariq/Kohonen-Self-Organizing-Map-/blob/master/src/Screenshots/Multiple%20Choice%20Questionnaire.JPG)
+![MCQ](src/main/resources/Screenshots/Multiple%20Choice%20Questionnaire.jpg)
 
 <br></br>
 # Contributors
